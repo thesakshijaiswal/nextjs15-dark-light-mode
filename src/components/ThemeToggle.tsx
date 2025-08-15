@@ -32,7 +32,7 @@ export default function ThemeToggle() {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       transition={{ duration: 0.2 }}
-      className="p-2 rounded-lg bg-gray-200 dark:bg-white/10 dark:hover:bg-white/10 transition-colors hover:bg-gray-100"
+      className="p-2 rounded-lg bg-gray-200 dark:bg-white/10 dark:hover:bg-white/10 transition-colors hover:bg-gray-100 cursor-pointer"
       onClick={cycleTheme}
       aria-label={`Current theme: ${theme}. Click to cycle themes.`}
       title={`Current: ${theme}. Click to cycle.`}
@@ -43,7 +43,7 @@ export default function ThemeToggle() {
         animate={{ rotate: 0, opacity: 1 }}
         transition={{ duration: 0.3 }}
       >
-        <Icon className="w-3 h-3 md:w-5 md:h-5" />
+        <Icon className="w-5 h-5 md:w-8 md:h-8" />
       </motion.div>
     </motion.button>
   );

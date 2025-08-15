@@ -11,7 +11,8 @@ export default function Home() {
       <div className="text-sm md:text-base">
         Made with 🧡 by{" "}
         <a
-          href="linkedin.com/in/thesakshijaiswal"
+          href="https://www.linkedin.com/in/thesakshijaiswal"
+          target="blank"
           className="hover:text-orange-400"
         >
           {" "}
